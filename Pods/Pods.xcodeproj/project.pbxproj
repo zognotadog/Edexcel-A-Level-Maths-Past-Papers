@@ -1,0 +1,581 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		26F55088EBD6EEB7AFA316B457A81902 /* PDFReader.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82300D964E572D8461847322794A0D97 /* PDFReader.storyboard */; };
+		354C9C2FF3B323AEB1B33DBB4A613DAD /* PDFReader-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3EAC48DE44511A99E243DC5493F4FE37 /* PDFReader-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4F7AEE6BCF51E837517EF6012FAE7523 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		5382A0BBAC9D392D9BD1D6DE98F4244F /* Pods-Edexcel A-Level Maths Past Papers-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DAD36E9434C7809A04D9138ED92B60E3 /* Pods-Edexcel A-Level Maths Past Papers-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		57505DD3BB3E355DC439057285AF1770 /* PDFThumbnailCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03F86BEF056B5C9F7A01C50FD70E234D /* PDFThumbnailCollectionViewController.swift */; };
+		5CACE961A3E67B969AA4AB1220AF7141 /* PDFThumbnailCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83DC33F08886B5230357FF2139CBFFA9 /* PDFThumbnailCell.swift */; };
+		7CEE7E3545F56F1D530A420F2EFA39E0 /* PDFReader-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B1C7A6D88A2DAA12EFEAF07AFEADFCF2 /* PDFReader-dummy.m */; };
+		8889D8829E1003F3B790766D98406965 /* PDFPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D38B1739154CE01C702601A9DD14955 /* PDFPageView.swift */; };
+		944C273DC3C204DAC0091E19E8FBAD9C /* PDFPageCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AE762F5FB8171DD8171DC5D3C30973F /* PDFPageCollectionViewCell.swift */; };
+		A2A4F592264BD0AF8AB11693269749BB /* PDFDocument.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BDAB6F2837026FC12FE0FC14DD4AAED /* PDFDocument.swift */; };
+		ABFC6BB5460B3BF71CF7FB18115D4236 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		B0A6C56671209E87CE8440BEDB9ED942 /* PDFViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E701AEAEB0C178FE4E071DD676E5430 /* PDFViewController.swift */; };
+		BF3274EAC67BA3F331D67AAF18BBD624 /* TiledView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CAEC35710CA2982295E6A318794202B /* TiledView.swift */; };
+		FCD0698403ED327A2DF48C8D64645559 /* Pods-Edexcel A-Level Maths Past Papers-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FF66AAE9ACE315A60156BC083465AAA /* Pods-Edexcel A-Level Maths Past Papers-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2FE80EFA4ABCB0DE086B30F8850E5D12 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F710BBECB76266FF75359E63DE720D2D;
+			remoteInfo = PDFReader;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		03F86BEF056B5C9F7A01C50FD70E234D /* PDFThumbnailCollectionViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PDFThumbnailCollectionViewController.swift; path = Sources/Classes/PDFThumbnailCollectionViewController.swift; sourceTree = "<group>"; };
+		0AE762F5FB8171DD8171DC5D3C30973F /* PDFPageCollectionViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PDFPageCollectionViewCell.swift; path = Sources/Classes/PDFPageCollectionViewCell.swift; sourceTree = "<group>"; };
+		2BDAB6F2837026FC12FE0FC14DD4AAED /* PDFDocument.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PDFDocument.swift; path = Sources/Classes/PDFDocument.swift; sourceTree = "<group>"; };
+		2DF44FEFD41E92D09E926CD237AD9998 /* PDFReader.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = PDFReader.modulemap; sourceTree = "<group>"; };
+		2E701AEAEB0C178FE4E071DD676E5430 /* PDFViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PDFViewController.swift; path = Sources/Classes/PDFViewController.swift; sourceTree = "<group>"; };
+		3EAC48DE44511A99E243DC5493F4FE37 /* PDFReader-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PDFReader-umbrella.h"; sourceTree = "<group>"; };
+		4D5E0652D84E28A672E6DCDB1905631A /* PDFReader-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PDFReader-prefix.pch"; sourceTree = "<group>"; };
+		4FF66AAE9ACE315A60156BC083465AAA /* Pods-Edexcel A-Level Maths Past Papers-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Edexcel A-Level Maths Past Papers-dummy.m"; sourceTree = "<group>"; };
+		68202C525E137AC4CB53683C4FF68FA1 /* Pods-Edexcel A-Level Maths Past Papers.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Edexcel A-Level Maths Past Papers.debug.xcconfig"; sourceTree = "<group>"; };
+		6A32612029EDEDF78EE8165AD60359C2 /* Pods-Edexcel A-Level Maths Past Papers-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Edexcel A-Level Maths Past Papers-frameworks.sh"; sourceTree = "<group>"; };
+		6CAEC35710CA2982295E6A318794202B /* TiledView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TiledView.swift; path = Sources/Classes/TiledView.swift; sourceTree = "<group>"; };
+		7457D4B797FA712066012DE0E152F7FC /* Pods_Edexcel_A_Level_Maths_Past_Papers.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Edexcel_A_Level_Maths_Past_Papers.framework; path = "Pods-Edexcel A-Level Maths Past Papers.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		758B4CC592885A3A430631F1B8BCE6C1 /* Pods-Edexcel A-Level Maths Past Papers.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-Edexcel A-Level Maths Past Papers.modulemap"; sourceTree = "<group>"; };
+		7D38B1739154CE01C702601A9DD14955 /* PDFPageView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PDFPageView.swift; path = Sources/Classes/PDFPageView.swift; sourceTree = "<group>"; };
+		82300D964E572D8461847322794A0D97 /* PDFReader.storyboard */ = {isa = PBXFileReference; includeInIndex = 1; name = PDFReader.storyboard; path = Sources/Assets/PDFReader.storyboard; sourceTree = "<group>"; };
+		83DC33F08886B5230357FF2139CBFFA9 /* PDFThumbnailCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PDFThumbnailCell.swift; path = Sources/Classes/PDFThumbnailCell.swift; sourceTree = "<group>"; };
+		90F7049451C9761B0AC614A54C687D12 /* Pods-Edexcel A-Level Maths Past Papers-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Edexcel A-Level Maths Past Papers-acknowledgements.markdown"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		96F35B908D4D0058E6AEACDCA4531F05 /* Pods-Edexcel A-Level Maths Past Papers-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Edexcel A-Level Maths Past Papers-resources.sh"; sourceTree = "<group>"; };
+		9AEF744389190BA46489B072D925A292 /* Pods-Edexcel A-Level Maths Past Papers-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Edexcel A-Level Maths Past Papers-acknowledgements.plist"; sourceTree = "<group>"; };
+		9E2A55AE8D1C487DC0DCDF870B4F89FB /* PDFReader.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PDFReader.xcconfig; sourceTree = "<group>"; };
+		A2955EF775C75F77481471447A0C6CA1 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE9562D3E6587BA7522F4C3B26012775 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B1C7A6D88A2DAA12EFEAF07AFEADFCF2 /* PDFReader-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PDFReader-dummy.m"; sourceTree = "<group>"; };
+		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		DAD36E9434C7809A04D9138ED92B60E3 /* Pods-Edexcel A-Level Maths Past Papers-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Edexcel A-Level Maths Past Papers-umbrella.h"; sourceTree = "<group>"; };
+		E0BF6BA350BC055327F1DA42BAE4207F /* PDFReader.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = PDFReader.framework; path = PDFReader.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA4EFCAAA35D06C2A6FF1F580AFCC394 /* Pods-Edexcel A-Level Maths Past Papers.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Edexcel A-Level Maths Past Papers.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		145B7D10152DBCDD3FF6F3D7146ED464 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F7AEE6BCF51E837517EF6012FAE7523 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76A31636B3ADA30FD90B46CDCB39410F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABFC6BB5460B3BF71CF7FB18115D4236 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		08A2860374519E778B45E26003422580 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E0BF6BA350BC055327F1DA42BAE4207F /* PDFReader.framework */,
+				7457D4B797FA712066012DE0E152F7FC /* Pods_Edexcel_A_Level_Maths_Past_Papers.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		283E572AEDB92FFEC85D8392DBCF7B04 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				AE9562D3E6587BA7522F4C3B26012775 /* Info.plist */,
+				2DF44FEFD41E92D09E926CD237AD9998 /* PDFReader.modulemap */,
+				9E2A55AE8D1C487DC0DCDF870B4F89FB /* PDFReader.xcconfig */,
+				B1C7A6D88A2DAA12EFEAF07AFEADFCF2 /* PDFReader-dummy.m */,
+				4D5E0652D84E28A672E6DCDB1905631A /* PDFReader-prefix.pch */,
+				3EAC48DE44511A99E243DC5493F4FE37 /* PDFReader-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/PDFReader";
+			sourceTree = "<group>";
+		};
+		3ACB93DB7AA9EEF1DBAC2A31A90AC65E /* Pods-Edexcel A-Level Maths Past Papers */ = {
+			isa = PBXGroup;
+			children = (
+				A2955EF775C75F77481471447A0C6CA1 /* Info.plist */,
+				758B4CC592885A3A430631F1B8BCE6C1 /* Pods-Edexcel A-Level Maths Past Papers.modulemap */,
+				90F7049451C9761B0AC614A54C687D12 /* Pods-Edexcel A-Level Maths Past Papers-acknowledgements.markdown */,
+				9AEF744389190BA46489B072D925A292 /* Pods-Edexcel A-Level Maths Past Papers-acknowledgements.plist */,
+				4FF66AAE9ACE315A60156BC083465AAA /* Pods-Edexcel A-Level Maths Past Papers-dummy.m */,
+				6A32612029EDEDF78EE8165AD60359C2 /* Pods-Edexcel A-Level Maths Past Papers-frameworks.sh */,
+				96F35B908D4D0058E6AEACDCA4531F05 /* Pods-Edexcel A-Level Maths Past Papers-resources.sh */,
+				DAD36E9434C7809A04D9138ED92B60E3 /* Pods-Edexcel A-Level Maths Past Papers-umbrella.h */,
+				68202C525E137AC4CB53683C4FF68FA1 /* Pods-Edexcel A-Level Maths Past Papers.debug.xcconfig */,
+				FA4EFCAAA35D06C2A6FF1F580AFCC394 /* Pods-Edexcel A-Level Maths Past Papers.release.xcconfig */,
+			);
+			name = "Pods-Edexcel A-Level Maths Past Papers";
+			path = "Target Support Files/Pods-Edexcel A-Level Maths Past Papers";
+			sourceTree = "<group>";
+		};
+		53528E3AAD1D0CE1BD26B417A7B6571A /* PDFReader */ = {
+			isa = PBXGroup;
+			children = (
+				2BDAB6F2837026FC12FE0FC14DD4AAED /* PDFDocument.swift */,
+				0AE762F5FB8171DD8171DC5D3C30973F /* PDFPageCollectionViewCell.swift */,
+				7D38B1739154CE01C702601A9DD14955 /* PDFPageView.swift */,
+				83DC33F08886B5230357FF2139CBFFA9 /* PDFThumbnailCell.swift */,
+				03F86BEF056B5C9F7A01C50FD70E234D /* PDFThumbnailCollectionViewController.swift */,
+				2E701AEAEB0C178FE4E071DD676E5430 /* PDFViewController.swift */,
+				6CAEC35710CA2982295E6A318794202B /* TiledView.swift */,
+				8F644633AC86ACD4ACD88EF7B34494D5 /* Resources */,
+				283E572AEDB92FFEC85D8392DBCF7B04 /* Support Files */,
+			);
+			name = PDFReader;
+			path = PDFReader;
+			sourceTree = "<group>";
+		};
+		7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		78DC3F3EF62A3EEF6DCD8DF9844590C4 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3ACB93DB7AA9EEF1DBAC2A31A90AC65E /* Pods-Edexcel A-Level Maths Past Papers */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				D8C7B6E54773230AFB7AF639D8388C3E /* Pods */,
+				08A2860374519E778B45E26003422580 /* Products */,
+				78DC3F3EF62A3EEF6DCD8DF9844590C4 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8F644633AC86ACD4ACD88EF7B34494D5 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				82300D964E572D8461847322794A0D97 /* PDFReader.storyboard */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D8C7B6E54773230AFB7AF639D8388C3E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				53528E3AAD1D0CE1BD26B417A7B6571A /* PDFReader */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		B855D11CBE2162FAA16FAA2A64A8C776 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				354C9C2FF3B323AEB1B33DBB4A613DAD /* PDFReader-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC633666188660E771DAB0F295E3EF84 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5382A0BBAC9D392D9BD1D6DE98F4244F /* Pods-Edexcel A-Level Maths Past Papers-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		99F13904B7521FE1EEC51EC04BBD6AFC /* Pods-Edexcel A-Level Maths Past Papers */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 795EDEC252A1045456B94B18017F1578 /* Build configuration list for PBXNativeTarget "Pods-Edexcel A-Level Maths Past Papers" */;
+			buildPhases = (
+				AA592A4A5F044291B43B30E69C857A1A /* Sources */,
+				145B7D10152DBCDD3FF6F3D7146ED464 /* Frameworks */,
+				EC633666188660E771DAB0F295E3EF84 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B49F94846A2DE3C715A4985BF960797D /* PBXTargetDependency */,
+			);
+			name = "Pods-Edexcel A-Level Maths Past Papers";
+			productName = "Pods-Edexcel A-Level Maths Past Papers";
+			productReference = 7457D4B797FA712066012DE0E152F7FC /* Pods_Edexcel_A_Level_Maths_Past_Papers.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F710BBECB76266FF75359E63DE720D2D /* PDFReader */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA7D5526AE58A2F486F8C68877893C3B /* Build configuration list for PBXNativeTarget "PDFReader" */;
+			buildPhases = (
+				B52BA9183E7BC2BF16D17996D90B8965 /* Sources */,
+				76A31636B3ADA30FD90B46CDCB39410F /* Frameworks */,
+				D997AB8292E073A95F741C33E0A8A8B7 /* Resources */,
+				B855D11CBE2162FAA16FAA2A64A8C776 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PDFReader;
+			productName = PDFReader;
+			productReference = E0BF6BA350BC055327F1DA42BAE4207F /* PDFReader.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 08A2860374519E778B45E26003422580 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F710BBECB76266FF75359E63DE720D2D /* PDFReader */,
+				99F13904B7521FE1EEC51EC04BBD6AFC /* Pods-Edexcel A-Level Maths Past Papers */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D997AB8292E073A95F741C33E0A8A8B7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26F55088EBD6EEB7AFA316B457A81902 /* PDFReader.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AA592A4A5F044291B43B30E69C857A1A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCD0698403ED327A2DF48C8D64645559 /* Pods-Edexcel A-Level Maths Past Papers-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B52BA9183E7BC2BF16D17996D90B8965 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2A4F592264BD0AF8AB11693269749BB /* PDFDocument.swift in Sources */,
+				944C273DC3C204DAC0091E19E8FBAD9C /* PDFPageCollectionViewCell.swift in Sources */,
+				8889D8829E1003F3B790766D98406965 /* PDFPageView.swift in Sources */,
+				7CEE7E3545F56F1D530A420F2EFA39E0 /* PDFReader-dummy.m in Sources */,
+				5CACE961A3E67B969AA4AB1220AF7141 /* PDFThumbnailCell.swift in Sources */,
+				57505DD3BB3E355DC439057285AF1770 /* PDFThumbnailCollectionViewController.swift in Sources */,
+				B0A6C56671209E87CE8440BEDB9ED942 /* PDFViewController.swift in Sources */,
+				BF3274EAC67BA3F331D67AAF18BBD624 /* TiledView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B49F94846A2DE3C715A4985BF960797D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PDFReader;
+			target = F710BBECB76266FF75359E63DE720D2D /* PDFReader */;
+			targetProxy = 2FE80EFA4ABCB0DE086B30F8850E5D12 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		4DABACE7CBD5CCB43D29870C69A509A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FA4EFCAAA35D06C2A6FF1F580AFCC394 /* Pods-Edexcel A-Level Maths Past Papers.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Edexcel A-Level Maths Past Papers/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Edexcel A-Level Maths Past Papers/Pods-Edexcel A-Level Maths Past Papers.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Edexcel_A_Level_Maths_Past_Papers;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		673254EEAF0B5BF4596080C749645884 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		87609A2DF852367EF8765C0F1238C23D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9E2A55AE8D1C487DC0DCDF870B4F89FB /* PDFReader.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/PDFReader/PDFReader-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PDFReader/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/PDFReader/PDFReader.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = PDFReader;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CC29401391D7133E74D7E6767E04E552 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9E2A55AE8D1C487DC0DCDF870B4F89FB /* PDFReader.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/PDFReader/PDFReader-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PDFReader/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/PDFReader/PDFReader.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = PDFReader;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E3E2583C0E78FA241B71067B53F674DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 68202C525E137AC4CB53683C4FF68FA1 /* Pods-Edexcel A-Level Maths Past Papers.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Edexcel A-Level Maths Past Papers/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Edexcel A-Level Maths Past Papers/Pods-Edexcel A-Level Maths Past Papers.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Edexcel_A_Level_Maths_Past_Papers;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E4F26E6EB105713A6A7E7E2E283AC2DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4F26E6EB105713A6A7E7E2E283AC2DF /* Debug */,
+				673254EEAF0B5BF4596080C749645884 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		795EDEC252A1045456B94B18017F1578 /* Build configuration list for PBXNativeTarget "Pods-Edexcel A-Level Maths Past Papers" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E3E2583C0E78FA241B71067B53F674DC /* Debug */,
+				4DABACE7CBD5CCB43D29870C69A509A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DA7D5526AE58A2F486F8C68877893C3B /* Build configuration list for PBXNativeTarget "PDFReader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC29401391D7133E74D7E6767E04E552 /* Debug */,
+				87609A2DF852367EF8765C0F1238C23D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

@@ -1,0 +1,6 @@
+framework module Pods_Edexcel_A_Level_Maths_Past_Papers {
+  umbrella header "Pods-Edexcel A-Level Maths Past Papers-umbrella.h"
+
+  export *
+  module * { export * }
+}
